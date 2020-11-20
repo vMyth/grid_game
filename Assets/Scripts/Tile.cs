@@ -6,6 +6,8 @@ using System;
 
 public class Tile : MonoBehaviour
 {
+    /*The Commented lines count a distance of 2 from the target.*/
+
     public bool isTarget = false;
     public TextMesh displayText;
     public Material materialIdle;
